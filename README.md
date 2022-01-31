@@ -2,6 +2,8 @@
 
 > This repository contains our exam project in the course 02456 Deep Learning Fall 2020 at DTU. **Note that the notebook containing the main results can be found in [Presentation of Main Results.ipynb](https://github.com/elisabethzinck/deep_learning_project/blob/master/Presentation%20of%20Main%20Results.ipynb).** 
 
+Open Domain Question Answering is the task of answering questions based on a large collection of documents. Such a task can be simplified to a two-stage framework: (1) A retriever which selects a small subset of documents (2) a reader that reads the retrieved documents and identifies the correct answer. This project focuses on the first stage: The retriever. More specifically, the goal is to re-implement Dense Passage Retrieval (DPR) using the power of Transformers to make a dense representation of the documents.
+
 ## Structure
 
 The [Src](https://github.com/elisabethzinck/deep_learning_project/tree/master/Src)-folder contains three folders:
